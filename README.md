@@ -27,3 +27,14 @@
 # Корпоративный (Jira-style)
 # Conventional Commits
 # GitHub-стиль
+
+
+## 6. Схема изменения статусов файлов в Git
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
